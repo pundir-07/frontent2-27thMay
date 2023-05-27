@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contest May 27</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-area">
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Search by name or symbol"
+        />
+        <button class="btn" onclick="sortByMarketCap()">Sort by MktCap</button>
+        <button class="btn" onclick="sortByPercentage()">
+          Sort by Percentage
+        </button>
+      </div>
+      <div class="search-results" id="search-results"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

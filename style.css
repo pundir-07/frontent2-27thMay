@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.container{
+    width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.search-area{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+}
+.search-area input{
+    background-color: transparent;
+    color: white;
+    width: 400px ;
+    height: 40px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid grey;
+}
+.search-area button{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+.search-results{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+table {
+    width: 80%; 
+    border-bottom: 1px solid white;
+    padding-bottom:3px ;
+    margin-top: 20px;
+}
+table td{
+    min-width:160px ;
+    white-space:nowrap;
+    text-align: center;
+    width: 18%;
+    font-size: 20px;
+}
+.name{
+    display: flex;
+    align-items: center;
+}
+.name img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.market-cap{
+    text-align: right;
+} 
+
